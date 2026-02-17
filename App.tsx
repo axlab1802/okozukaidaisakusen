@@ -6,10 +6,10 @@ import { generateLetter } from './services/geminiService';
 import { Rocket, Sparkles } from 'lucide-react';
 
 const initialData: LetterData = {
-  age: '',
-  targetItem: '',
-  currentAllowance: '',
-  episodes: '',
+  age: '10歳',
+  targetItem: 'ちいかわグッズ',
+  currentAllowance: '50円',
+  episodes: '今度こそテストでいい点数とります！',
 };
 
 const App: React.FC = () => {
